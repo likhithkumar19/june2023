@@ -1,17 +1,20 @@
-class AB{
-public static void main()
+import java.util.Scanner;
+class Ab
 {
-System.out.println("main method without argurment called");
-}
-public static void main(String []args)
+public static void main(String args[])
 {
-System.out.println("likki is typing");
-}
-main();
-main(20);
-}
-public static void main(int y)
+Scanner sc=new Scanner(System.in);
+String str=sc.next();
+char ch=sc.next().charAt(0);
+for(int i=0;i<str.length();i++)
 {
-System.out.println("Main method with argument called",y*2);
+if(str.charAt(i)>='a'&& str.charAt(i)<='z')
+{
+if(ch!=str.charAt(i))
+{
+System.out.print(str.charAt(i));
+}
+}
+}
 }
 }

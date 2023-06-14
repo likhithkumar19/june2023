@@ -1,4 +1,4 @@
-class Day11CommandLineExample
+class CommandLineExample
 {
 public static void main(String args[])
 {
